@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GlobalService_CRUD">
+
+    <ListView
+        android:id="@+id/lvUsuarios"
+        android:layout_width="match_parent"
+        android:layout_height="260dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/lvUsuarios"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnRegistrarUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:onClick="btnRegistrar"
+            android:text="@string/btnRegistrarUser" />
+
+        <Button
+            android:id="@+id/btnMostrarUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/btnMostrarUser" />
+
+        <Button
+            android:id="@+id/btnEditarUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/btnEditarUser" />
+
+        <Button
+            android:id="@+id/btnEliminarUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/btnEliminarUser" />
+
+        <Button
+            android:id="@+id/btnSalirUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:onClick="btnSalirUser"
+            android:text="@string/btnSalir" />
+    </LinearLayout>
+</RelativeLayout>

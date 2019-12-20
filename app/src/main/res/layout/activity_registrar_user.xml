@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrarUser">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTituloRegisUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/tvTituloRegisUser"
+            android:textAllCaps="false"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etIdUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:cursorVisible="true"
+            android:editable="true"
+            android:ems="10"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="@string/etIdUser"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etNombreUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="@string/etNombreUser"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etApellidoUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="@string/etApellidoUser"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etRutUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="@string/etRurUser"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etCorreoUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="@string/etCorreoUser"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etContraseñaUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="@string/etContraseñaUser"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/etReptContraseñaUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="@string/etReptContraseñaUser"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/etPaisUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="@string/etPaisUser"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnRegistrarUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:onClick="registrarUser"
+            android:text="@string/btnRegistrarUser" />
+    </LinearLayout>
+</RelativeLayout>
