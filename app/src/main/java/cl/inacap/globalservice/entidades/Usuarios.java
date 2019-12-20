@@ -19,7 +19,7 @@ public class Usuarios {
         this.contrasenaUser = contrasenaUser;
         this.paisUser = paisUser;
     }
-
+//sdfsdf
 
     public Integer getIdUser() {
         return idUser;
