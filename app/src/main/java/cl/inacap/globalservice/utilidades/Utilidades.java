@@ -13,9 +13,11 @@ public class Utilidades {
     public static final String CAMPO_PAIS="paisUser";
 
     public static final String CREAR_TABLA_USUARIO="CREATE TABLE "+
-            ""+TABLA_USUARIO+" ("+CAMPO_ID+" " +
-            "INTEGER, "+CAMPO_NOMBRE+" TEXT, "+CAMPO_APELLIDO+" TEXT, "+CAMPO_RUT+" TEXT, "+CAMPO_CORREO+" TEXT, "+CAMPO_CONTRASENA+" TEXT, "+CAMPO_PAIS+" TEXT)";
-
-
-
+            ""+TABLA_USUARIO+" ("+CAMPO_ID+" INTEGER PRIMARY KEY AUTOINCREMENT " +
+            ", "+CAMPO_NOMBRE+" TEXT" +
+            ", "+CAMPO_APELLIDO+" TEXT" +
+            ", "+CAMPO_RUT+" TEXT" +
+            ", "+CAMPO_CORREO+" TEXT" +
+            ", "+CAMPO_CONTRASENA+" TEXT" +
+            ", "+CAMPO_PAIS+" TEXT)";
 }

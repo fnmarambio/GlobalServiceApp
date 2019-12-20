@@ -48,7 +48,7 @@ public class RegistrarUser extends AppCompatActivity {
 
         Long idResultante=db.insert(Utilidades.TABLA_USUARIO,Utilidades.CAMPO_ID,values);
 
-        Toast.makeText(getApplicationContext(),"ID Registro: "+idResultante,Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(),"Se ha guardado exitosamente / ID Registro: "+idResultante,Toast.LENGTH_SHORT).show();
         db.close();
     }
 }
