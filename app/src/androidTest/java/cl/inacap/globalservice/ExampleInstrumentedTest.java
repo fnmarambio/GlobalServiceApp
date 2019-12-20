@@ -24,6 +24,8 @@ public class ExampleInstrumentedTest {
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
         assertEquals("cl.inacap.globalservice", appContext.getPackageName());
+
+
     }
 
 } */
