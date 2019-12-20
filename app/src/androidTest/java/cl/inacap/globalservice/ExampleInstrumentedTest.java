@@ -25,4 +25,5 @@ public class ExampleInstrumentedTest {
 
         assertEquals("cl.inacap.globalservice", appContext.getPackageName());
     }
+
 } */
