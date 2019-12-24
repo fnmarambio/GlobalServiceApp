@@ -46,7 +46,7 @@ public class GlobalService_CRUD extends AppCompatActivity {
     }
 
     public void btnSalirUser(View view){
-        Intent crud = new Intent(this,MainActivity.class);
+        Intent crud = new Intent(this,MostrarActivity.class);
         startActivity(crud);
 
     }
