@@ -1,5 +1,8 @@
 package cl.inacap.globalservice.entidades;
 
+import android.widget.ImageButton;
+import android.widget.ImageView;
+
 public class Usuarios {
 
     private Integer idUser;
@@ -10,7 +13,11 @@ public class Usuarios {
     private String contrasenaUser;
     private String paisUser;
 
-    public Usuarios(Integer idUser, String nombreUser, String apellidoUser, String rutUser, String correo, String contrasenaUser, String paisUser) {
+    public Usuarios(){
+
+    }
+
+    public Usuarios(String nombreUser, String apellidoUser) {
         this.idUser = idUser;
         this.nombreUser = nombreUser;
         this.apellidoUser = apellidoUser;
@@ -19,8 +26,6 @@ public class Usuarios {
         this.contrasenaUser = contrasenaUser;
         this.paisUser = paisUser;
     }
-
-    //sdfsdf
 
     public Integer getIdUser() {
         return idUser;
@@ -77,4 +82,5 @@ public class Usuarios {
     public void setPaisUser(String paisUser) {
         this.paisUser = paisUser;
     }
+
 }

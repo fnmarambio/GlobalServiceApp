@@ -6,55 +6,44 @@
     android:layout_height="match_parent"
     tools:context=".GlobalService_CRUD">
 
-    <ListView
-        android:id="@+id/lvUsuarios"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvUsuarios"
         android:layout_width="match_parent"
-        android:layout_height="260dp" />
+        android:layout_height="360dp" />
 
     <LinearLayout
+        android:id="@+id/llCrud"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@id/lvUsuarios"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginRight="20dp"
+        android:layout_height="300dp"
+        android:layout_below="@id/rvUsuarios"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="15dp"
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/btnRegistrarUser"
+            android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="10dp"
             android:onClick="btnRegistrar"
             android:text="@string/btnRegistrarUser" />
 
         <Button
-            android:id="@+id/btnMostrarUser"
+            android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginBottom="20dp"
             android:text="@string/btnMostrarUser" />
 
         <Button
-            android:id="@+id/btnEditarUser"
+            android:id="@+id/button5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="@string/btnEditarUser" />
-
-        <Button
-            android:id="@+id/btnEliminarUser"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="@string/btnEliminarUser" />
-
-        <Button
-            android:id="@+id/btnSalirUser"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="20dp"
             android:onClick="btnSalirUser"
             android:text="@string/btnSalir" />
+
     </LinearLayout>
 </RelativeLayout>
